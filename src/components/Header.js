@@ -15,10 +15,12 @@ function Header(props) {
                 <h1>Mitchell Foote's Portfolio</h1>
             </div>
             <div>
-                <Navigation ></Navigation>
+                <Navigation current={current} setCurrent={setCurrent}></Navigation>
             </div>
         </header>
 
     );
 
 }
+
+export default Header;
