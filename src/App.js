@@ -12,10 +12,36 @@ import Footer from './components/Footer';
 
 function App() {
 
+    let [current, setCurrent] = useState('about');
+
+    let renderPage = () => {
+
+		switch (current) {
+
+			case 'about':
+				return <About />;
+			case 'portfolio':
+				return <Portfolio />;
+            case 'resume':
+				return <Resume />;
+			case 'contact':
+				return <Contact />;
+			
+			default:
+				return null;
+
+		}
+
+	};
+
+
     return(
         <div>
             <div className="header">
-				<Header></Header>
+				<Header current={current} setCurrent={setCurrent}></Header>
+			</div>
+			<div>
+				<main>{renderPage()}</main>
 			</div>
 			<div>
 				<Footer></Footer>
