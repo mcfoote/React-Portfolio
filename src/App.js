@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 
 
@@ -12,36 +12,10 @@ import Footer from './components/Footer';
 
 function App() {
 
-    let [current, setCurrent] = useState('about');
-
-    let renderPage = () => {
-
-		switch (current) {
-
-			case 'about':
-				return <About />;
-			case 'portfolio':
-				return <Portfolio />;
-            case 'resume':
-				return <Resume />;
-			case 'contact':
-				return <Contact />;
-			
-			default:
-				return null;
-
-		}
-
-	};
-
-
     return(
         <div>
             <div className="header">
-				<Header current={current} setCurrent={setCurrent}></Header>
-			</div>
-			<div>
-				<main>{renderPage()}</main>
+				<Header></Header>
 			</div>
 			<div>
 				<Footer></Footer>
