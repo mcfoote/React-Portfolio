@@ -17,15 +17,20 @@ function Project(props) {
                                     </a>
                                 </div>
                             </div>
-                            <div className="">
+                            <div className="card-content">
                                 <div>
-
+                                    <div>
+                                        <p>{project.name}</p>
+                                    </div>
                                 </div>
+                            </div>
+                            <div>
+                                
                             </div>
                         </div>
                     </div>
                 ))}
-                
+
             </div>
         </section>
 
