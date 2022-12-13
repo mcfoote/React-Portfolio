@@ -4,18 +4,18 @@ function Portfolio() {
 
     return(
         <div>
-            <section id="work" class="work">
+            <section id="work" className="work">
 
-                <div class="sectionHeading">
+                <div className="sectionHeading">
                     <h2 >Work</h2>
                 </div>
 
-                <div class="projectGridWrapper">
+                <div className="projectGridWrapper">
 
-                    <div class="projectGrid">
+                    <div className="projectGrid">
 
-                        <a href="https://jacksonwolfd20.github.io/MTG-Deck-Builder/assets/html/deck-builder.html" class="project MTGDeckBuilder" >
-                            <div class="projectLabels">
+                        <a href="https://jacksonwolfd20.github.io/MTG-Deck-Builder/assets/html/deck-builder.html" className="project MTGDeckBuilder" >
+                            <div className="projectLabels">
                                 <h3>MTG Deck Builder</h3>
                                 <p>
                                     Javascript/HTML/Bulma
@@ -23,8 +23,8 @@ function Portfolio() {
                             </div>
                         </a>
 
-                        <a href="https://github.com/mcfoote" class="project surfReport" >
-                            <div class="projectLabels">
+                        <a href="https://github.com/mcfoote" className="project surfReport" >
+                            <div className="projectLabels">
                                 <h3>Surf Report</h3>
                                 <p>
                                     MERN Stack
@@ -32,8 +32,8 @@ function Portfolio() {
                             </div>
                         </a>
 
-                        <a href="https://github.com/mcfoote" class="project ledWall" >
-                            <div class="projectLabels">
+                        <a href="https://github.com/mcfoote" className="project ledWall" >
+                            <div className="projectLabels">
                                 <h3>LED Wall</h3>
                                 <p>
                                     Node/IoT
@@ -41,8 +41,8 @@ function Portfolio() {
                             </div>
                         </a>
 
-                        <a href="https://github.com/mcfoote" class="project calculator" >
-                            <div class="projectLabels">
+                        <a href="https://github.com/mcfoote" className="project calculator" >
+                            <div className="projectLabels">
                                 <h3>Calculator</h3>
                                 <p>
                                     React/JavaScript/CSS
@@ -50,8 +50,8 @@ function Portfolio() {
                             </div>
                         </a>
 
-                        <a href="https://github.com/mcfoote" class="project pastelPuzzles" >
-                            <div class="projectLabels">
+                        <a href="https://github.com/mcfoote" className="project pastelPuzzles" >
+                            <div className="projectLabels">
                                 <h3>Pastel Puzzles</h3>
                                 <p>
                                     MERN Stack
