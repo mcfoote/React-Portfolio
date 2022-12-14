@@ -5,7 +5,7 @@ function Project(props) {
     return(
 
         <section>
-            <div className="columns is-justify-content-center is-flew-wrap-wrap is-desktop is-flex-direction-row">
+            <div className="columns is-justify-content-center is-flex-wrap-wrap is-desktop is-flex-direction-row">
 
                 {props.projectArr.map((project) => (
                     <div className="column">
@@ -24,8 +24,13 @@ function Project(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                
+                            <div className="content">
+                                {project.contentText}
+                                <br/>
+                                <div className="content">
+                                    Technologies: {project.technologies}
+                                    <br/>
+                                </div>
                             </div>
                         </div>
                     </div>
