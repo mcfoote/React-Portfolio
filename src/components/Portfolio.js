@@ -1,8 +1,27 @@
 import React from 'react';
 
+import Project from "./Project";
+
 function Portfolio() {
 
     return(
+        <div>
+            <h2>My Portfolio</h2>
+
+            <Project projectArr={projectArr} />
+        </div>
+    );
+
+}
+
+const projectArr = [
+
+]
+
+export default Portfolio;
+
+/* 
+
         <div>
             <section id="work" className="work">
 
@@ -67,8 +86,5 @@ function Portfolio() {
 
             </section>
         </div>
-    );
 
-}
-
-export default Portfolio;
+*/
