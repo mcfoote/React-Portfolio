@@ -31,6 +31,11 @@ function Project(props) {
                                     Technologies: {project.technologies}
                                     <br/>
                                 </div>
+                                <div className="card">
+                                    <footer className="card-footer">
+                                        <a href={project.repository}>Link to the Repository:</a>
+                                    </footer>
+                                </div>
                             </div>
                         </div>
                     </div>
