@@ -16,6 +16,47 @@ function Portfolio() {
 
 const projectArr = [
 
+    {
+        name: ,
+        contentText: ,
+        technologies: ,
+        img: ,
+        repository: ,
+        deployment: ,
+    },
+    {
+        name: ,
+        contentText: ,
+        technologies: ,
+        img: ,
+        repository: ,
+        deployment: ,
+    },
+    {
+        name: ,
+        contentText: ,
+        technologies: ,
+        img: ,
+        repository: ,
+        deployment: ,
+    },
+    {
+        name: ,
+        contentText: ,
+        technologies: ,
+        img: ,
+        repository: ,
+        deployment: ,
+    },
+    {
+        name: ,
+        contentText: ,
+        technologies: ,
+        img: ,
+        repository: ,
+        deployment: ,
+    },
+
 ]
 
 export default Portfolio;
